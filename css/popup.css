@@ -5,43 +5,51 @@ body {
 	margin: 0px;
 	}
 #titleBar {  
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	height:5%;
-	overflow:auto;
-	vertical-align: middle;
-	background-color: rgb(220,220,220);
+	background-color: rgb(150,250,250);
 }  
 #logo {
-	float: left;
-	margin: 2%;
+	margin : 0 10px;
+	margin-right: 15px;;
 	
 }
-#titleText {
-	margin-top: 12px;
-	margin-bottom:0px;
-	margin-left:58px;
-	padding: 1%;
-}
+
 .content, .help{
 	text-align: center;
 }
 #statusText	{
-	font-size: large;
-	font-weight: bold;
-	margin-left: 10px;
-	margin-right: 10px;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 15px;
+	margin-right: 15px;
 	
 }
 #btnBlacklistToggle {
-	display: inline-block;
-	font-size: medium;
-	font-weight: bold;
-	margin: 10px;
-	padding: 5px;
+	/* display: inline-block; */
+	font-size: 17px;
+	font-weight: 600;
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	background-color: rgb(150,250,250);
 }
 #btnHelp {
-	display: inline-block;
-	font-weight: bold;
-	margin-top: 10px;
-	margin-bottom: 5px;
-	padding: 5px;
+	/* display: inline-block; */
+	font-size: 17px;
+	font-weight: 600;
+	padding: 8px 10px;
+	border-radius: 10px;
+	border: none;
+	background-color: rgb(150,250,250);
+}
+
+.buttons{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 20px;
+	
 }

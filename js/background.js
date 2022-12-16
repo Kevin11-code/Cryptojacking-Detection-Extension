@@ -129,7 +129,7 @@ function checkBlacklist(domain) {
   if (blacklist.indexOf(domainMod) >= 0) {
     chrome.storage.local.set({ blockStatus: domain }, function () {});
     chrome.browserAction.setBadgeText({ text: "1" });
-    chrome.browserAction.setBadgeBackgroundColor({ color: "#0F0" });
+    chrome.browserAction.setBadgeBackgroundColor({ color: "#fFf" });
   } else {
     chrome.browserAction.setBadgeText({ text: "" });
     var value = "Site Clear";
